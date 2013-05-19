@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Popular</title>
+
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Widget.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+		
+		<!-- ui Javascript -->
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/jquery.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/core.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/ui.js'></script>
+		
+
+		<!--<script language="javascript" type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>-->
+		<script type="text/javascript" src="javascript/popular.js"></script>
+			
+		<link rel="stylesheet" href="css/popular.css" type="text/css">
+		
+		<!-- fonts css -->
+		<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	</head>
+
+	<body background="resource/images/eatv_bg.png"onload="Main.onLoad();" onunload="Main.onUnload();">
+		<!-- Dummy anchor as focus for key events -->
+		<a href='javascript:void(0);' id='anchor' onkeydown='Main.MainKeyHandler();'></a>
+		
+		<!-- loading animated gif-->
+		<div id="loading"></div>
+		
+		<!-- loading background-->
+		<div id="blackBG"></div>
+		
+		<div id="breadCrumbDIV">
+			<a id="breadcrumb">פופולריים</a>
+		</div>
+		<div id="leftBox">
+	
+			<div id="innerLeftBox"></div>
+		</div>
+		<div id="rightBox">
+			<div id="rightMenuBG"></div>
+			<ul id="navList">
+			  <li id="pizzaL">פיצה</li>
+			  <li id="sushiL">סושי</li>
+			  <li id="burgerL">המבורגר</li>
+			  <li id="pastaL">פסטה</li>
+			  <li id="fireL">על האש</li>
+			  <li id="chinaL" >סיני</li>
+			</ul>
+		</div>
+		
+		<!-- Loading Image -->
+		<div id="loadingImage"></div>
+		
+		<!-- Help ticker -->
+		<div id="helpTicker"></div>
+		
+	</body>
+</html>

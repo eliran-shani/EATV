@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>EaTV</title>
+
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Widget.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+
+		<script language="javascript" type="text/javascript" src="javascript/main.js"></script>
+		<!--<script language="javascript" type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>-->
+		
+		<!-- ui Javascript -->
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/jquery.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/core.js'></script>
+		<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/ui.js'></script>
+        
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+		
+		<!-- fonts css -->
+		<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	</head>
+
+	<body background="resource/images/eatv_bg.png"onload="Main.onLoad();" onunload="Main.onUnload();">
+		<!-- Dummy anchor as focus for key events -->
+		<a href='javascript:void(0);' id='anchor' onkeydown='Main.MainKeyHandler();'></a>
+		<div id="mainMenuBtns">
+			<div id="promotionsBtn" class="mainMenuBtn">
+				<div id="promotionsBtnPic" class="mainMenuBtnPic"></div>
+				<div id="promotionsBtnText" class="mainMenuBtnText">
+					<h1 class="mainMenuBtnsTextBig">מבצעים</h1>
+					<h2 class="mainMenuBtnsTextSmall">קופונים, דילים ושאר הנחות</h2>
+				</div>
+			</div>
+			<div id="restaurantBtn" class="mainMenuBtn">
+				<div id="restaurantBtnPic" class="mainMenuBtnPic"></div>
+				<div id="restaurantBtnText" class="mainMenuBtnText">
+					<h1 class="mainMenuBtnsTextBig">קרוב לבית</h1>
+					<h2 class="mainMenuBtnsTextSmall">מגוון מסעדות באזור מגוריך</h2>
+				</div>
+			</div>
+			<div id="popularBtn" class="mainMenuBtn">
+				<div id="popularBtnPic" class="mainMenuBtnPic"></div>
+				<div id="popularBtnText" class="mainMenuBtnText">
+					<h1 class="mainMenuBtnsTextBig">פופולרים</h1>
+					<h2 class="mainMenuBtnsTextSmall">פיצה,סושי,המבורגר ועוד...</h2>
+				</div>
+			</div>
+			<div id="personalBtn" class="mainMenuBtn">
+				<div id="personalBtnPic" class="mainMenuBtnPic"></div>
+				<div id="personalBtnText" class="mainMenuBtnText">
+					<h1 class="mainMenuBtnsTextBig">האזור האישי</h1>
+					<h2 class="mainMenuBtnsTextSmall">היסטורית הזמנות, מועדפים וכו'</h2>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Help ticker -->
+		<div id="helpTicker"></div>
+		
+	</body>
+</html>

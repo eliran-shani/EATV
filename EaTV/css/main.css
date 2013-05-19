@@ -1,0 +1,88 @@
+
+
+body{
+font-family: 'SpacerBold';
+}
+
+#mainMenuBtns{
+	width:1255px;
+	height:406px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 120px;
+	padding:94px 0px 0px 0px;
+}
+
+.mainMenuBtn{
+	width:289px;
+	height:311px;
+	float:left;
+	margin-left:19px;
+	border-width:thin;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+#promotionsBtn{
+	margin-top:0px;
+}
+
+#restaurantBtn{
+	margin-top:0px;
+}
+
+#popularBtn{
+	margin-top:0px;
+}
+
+#personalBtn{
+	margin-top:0px;
+}
+
+.mainMenuBtnPic{
+	width:270px;
+	height: 220px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.mainMenuBtnText{
+	width:265px;
+	height:65px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: -15px;
+}
+
+#personalBtnPic{
+	background-image: url("../resource/images/personal.png");
+}
+
+#popularBtnPic{
+	background-image: url("../resource/images/popular.png");
+}
+
+#restaurantBtnPic{
+	background-image: url("../resource/images/rest.png");
+}
+
+#promotionsBtnPic{
+	background-image: url("../resource/images/promotions.png");
+}
+
+.mainMenuBtnsTextBig{
+	color:white;
+	text-align:right;
+	font-size:30px;
+	margin-bottom: -15px;
+	direction:rtl;
+}
+
+.mainMenuBtnsTextSmall{
+	color:white;
+	text-align:right;
+	font-size:18px;
+	direction:rtl;
+}

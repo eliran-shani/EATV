@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<widgetname itemtype="string">EaTV</widgetname>
+	<ver itemtype="string">0.1</ver>
+	<description itemtype="string">Order Food in HD</description>
+	<type itemtype="string">user</type>
+	<cpname itemtype="string"></cpname>
+	<cpauthjs itemtype="string"></cpauthjs>
+	<ThumbIcon itemtype="string">resource/icon/eatv_logo_106.png</ThumbIcon>
+	<BigThumbIcon itemtype="string">resource/icon/eatv_logo_115.png</BigThumbIcon>
+	<ListIcon itemtype="string">resource/icon/eatv_logo_85.png</ListIcon>
+	<BigListIcon itemtype="string">resource/icon/eatv_logo_95.png</BigListIcon>
+	<category itemtype="string">lifestyle</category>
+	<mgrver itemtype="string"></mgrver>
+	<fullwidget itemtype="string">y</fullwidget>
+	<movie itemtype="string">y</movie>
+	<flashplayer itemtype="string">y</flashplayer>
+	<srcctl itemtype="string">y</srcctl>
+	<ticker itemtype="string">n</ticker>
+	<childlock itemtype="string">n</childlock>
+	<audiomute itemtype="string">n</audiomute>
+	<videomute itemtype="string">n</videomute>
+	<dcont itemtype="string">y</dcont>
+	<network itemtype="string">y</network>
+	<width itemtype="number">1280</width>
+	<height itemtype="number">720</height>
+	<author itemtype="group">
+		<name itemtype="string">EaTV</name>
+		<email itemtype="string">eatvapp@gmail.com</email>
+		<link itemtype="string">http://www.eatv.com</link>
+		<organization itemtype="string">EaTV Co. Ltd.</organization>
+	</author>
+</widget>

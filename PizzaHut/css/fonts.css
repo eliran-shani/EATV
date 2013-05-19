@@ -1,0 +1,9 @@
+@font-face{ 
+	font-family: 'Spacer';
+	src: url('../resource/fonts/SpacerRegular.TTF') format('truetype');
+}
+
+@font-face{ 
+	font-family: 'SpacerBold';
+	src: url('../resource/fonts/SpacerBold.TTF') format('truetype');
+}

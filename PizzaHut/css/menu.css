@@ -1,0 +1,200 @@
+body{
+	
+	font-family: 'SpacerBold';
+	margin:0px;
+	padding:0px;
+}
+
+#breadCrumbDIV {
+    height: 29px;
+    left: 417px;
+    padding-right: 10px;
+    padding-top: 15px;
+    position: relative;
+    top: 10px;
+    width: 700px;
+}
+
+#breadcrumb {
+    color: #EEE9E9;
+    direction: rtl;
+    float: right;
+    font-size: 30px;
+	padding-left: 20px;
+}
+
+#breadcrumb2 {
+    color: #0B89E1;
+    direction: rtl;
+    float: right;
+    font-size: 30px;
+}
+
+#loadingImage{
+	position : absolute;
+	left : 546px;
+	top : 266px;
+}
+
+#menuRightMenuBG{
+	position:absolute;
+	background-color:rgba(145,145,145,0.5);
+	border-radius: 10px;
+	margin-right: -40px;
+	padding: 10px;
+	z-index:-1;
+}
+
+
+#menuRightBox{
+	background-color: rgba(1, 1, 1, 0.2);
+    height: 587px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    width: 346px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;	
+}
+
+#menuNavList{
+    direction: rtl;
+    float: right;
+    left: 84px;
+    list-style-type: none;
+    overflow: auto;
+    position: absolute;
+    text-align: right;
+	z-index:20;
+}
+
+#menuNavList li{
+}
+
+.menuNavListItem{
+	
+	font-size: 30px;
+	padding: 10px;
+	width: 220px;
+	border-radius: 10px;
+	margin-right: -40px;
+	color: #eee9e9;
+}
+
+.hideCat{
+	display:none;
+}
+
+#menuLeftContainer {
+    height: 598px;
+    left: 260px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 61px;
+    width: 650px;
+}
+#menuLeftBox {
+    font-family: 'Spacer';
+    height: 626px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 650px;
+}
+
+#blackBG {
+    position: absolute;
+    display: none;
+    width: 1280px;
+    height: 720px;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 98;
+}
+
+#loading{
+	position: absolute;
+	display: none;
+    width:114px;
+    height: 40px;
+    left: 583px;
+    top: 340px;
+    background-image: url('../resource/images/loading animation.gif');
+    z-index: 99;
+    
+}
+
+.menuResultBox {
+    border: medium solid black;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    direction: rtl;
+    float: left;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 280px;
+	margin-right: 10px;
+}
+.menuImg {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 171px;
+    left: 1px;
+    position: relative;
+    top: 5px;
+    width: 282px;
+    z-index: -1;
+}
+.menuResultBoxImage {
+    margin-top: -5px;
+}
+.menuResultBoxText {
+    background-color: black;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: 0 none;
+    border-right: 0 none;
+    font-size: 24px;
+    font-weight: bold;
+    height: 70px;
+    margin-top: -12px;
+    padding-right: 17px;
+    padding-top: 10px;
+    position: relative;
+    text-align: right;
+    top: 13px;
+    width: 264px;
+    z-index: -1;
+}
+
+#OrderBox {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 582px;
+    padding-top: 5px;
+    position: absolute;
+    top: 80px;
+    width: 238px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#OrderBoxResult {
+    height: 348px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    position: relative;
+}
+#OrderBoxButtons {
+    position: absolute;
+}
+#orderButton {
+}
+#myOrdersImage {
+}
+#orderButton {
+}
+#cancelButton {
+}
