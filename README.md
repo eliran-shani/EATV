@@ -11,7 +11,7 @@ You can also:
   - Order food together with your friends & family
   - Get daily discounts 
 
-Created as part of @Shenkar Softwar Engineering College Final Project.
+Created as part of @Shenkar Software Engineering College Final Project.
 
 ### Developers
 
